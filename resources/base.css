@@ -1,0 +1,26 @@
+body {
+    padding: 0; margin: 0; height: 100%; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 5em; 
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    display: table;
+    position: static;
+}
+#network {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+#network li {
+    display: inline-block;
+    width: 100%;
+    line-height: 2em;
+}
+#network img {
+    vertical-align: text-bottom;
+    width: 1em;
+    height: auto;
+    margin: 0.2em;
+}
